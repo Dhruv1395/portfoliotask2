@@ -1,0 +1,124 @@
+
+/* / Desktop 1600px   / */
+@media (max-width: 1850px) {}
+
+/* / Desktop 1440px   / */
+@media (max-width: 1440px) {
+
+}
+
+/* / Desktop 1280px   / */
+@media (max-width: 1300px) {
+    .content .imges{
+        flex-direction: column;
+    }
+    
+}
+
+/* / iPad 1024px   / */
+@media (max-width: 1199px) {
+    
+   
+}
+
+/* / iPad 991px   / */
+@media (max-width: 991px) {
+    .menu .list{
+        display: none;
+    }
+    .content .menu{
+        display: none;
+    }
+    .details{
+        flex-direction: column;
+    }
+    .details .col{
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    footer {
+        flex-direction: column;      
+    }
+    footer .container{
+        width: 100%;
+        margin: 5% auto;
+        
+        
+    }
+    
+}
+
+/* / Iphone 767px  / */
+@media (max-width: 767px) {
+    .container h1{
+        padding: 25% 0 5% 0;
+    }
+    .container button{
+        margin: 10% 0;
+        padding: 15px;
+    }
+   
+}
+@media (max-width:600px){
+    .details .col .row{
+        flex-direction: column;
+        margin: 0;
+    }
+    .details .col .info{
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    #sec3 .items{
+        flex-direction: column;
+    }
+    #sec3 .items h6{
+        margin: 5% auto;
+    }
+    #showcase .imges{
+        flex-direction: column;
+    }
+    footer {
+        flex-direction: column;
+    }
+    footer .container{
+        flex-direction: column;
+    }
+    footer .col{
+        margin-bottom: 5%;
+    }
+    footer .items{
+        margin-left: 5%;
+    }
+    footer .items span{
+        padding-bottom:2%;
+    }
+    footer .items h5{
+        padding-bottom:3%;
+    }
+}
+
+/* / Iphone 567px   / */
+@media (max-width: 480px) {
+
+    .imges .row{
+        flex-direction: column;
+    }
+    .imges .img{
+        margin: 0 auto;
+
+    }
+    .imges .img {
+        width: 90%;
+    }
+    
+}
+
+/* / Mobile 375px   / */
+@media (max-width: 375px) {}
+
+/* / Mobile 360px   / */
+@media (max-width: 360px) {}
+
+/* / Mobile 320px   / */
+@media (max-width: 320px) {}
